@@ -2,4 +2,3 @@ boto3
 langchain
 langchain-community
 RootModel
-faiss-cpu
