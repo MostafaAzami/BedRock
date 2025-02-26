@@ -1,2 +1,4 @@
 boto3
 langchain
+pypdf
+faiss-cpu
