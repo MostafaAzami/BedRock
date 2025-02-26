@@ -16,9 +16,9 @@ st.title("📖 Social Media Training Bot")
 #Define convenience functions
 @st.cache_resource
 def config_llm():
-    session = boto3.Session(region_name="us-west-2")  # Change to your preferred AWS region
-    #client = boto3.client('bedrock-runtime')
-    client = session.client("bedrock-runtime")
+    # session = boto3.Session(region_name="us-west-2")  # Change to your preferred AWS region
+    client = boto3.client('bedrock-runtime')
+    # client = session.client("bedrock-runtime")
 
     model_kwargs = { 
         "max_tokens_to_sample": 512,
