@@ -2,4 +2,3 @@ boto3
 langchain
 langchain-community
 BedrockEmbeddings
-faiss-cpu
