@@ -18,7 +18,7 @@ st.title("📖 Social Media Training Bot")
 def config_llm():
     session = boto3.Session(region_name="us-west-2")  # Change to your preferred AWS region
     #client = boto3.client('bedrock-runtime')
-    client = session.client("bedrock")
+    client = session.client("bedrock-runtime")
 
     model_kwargs = { 
         "max_tokens_to_sample": 512,
