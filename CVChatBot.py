@@ -50,7 +50,7 @@ vectorstore_faiss = config_vector_db("Mostafa.Azami.CV2024.pdf")
 #Set up memory
 msgs = StreamlitChatMessageHistory(key="langchain_messages")
 if len(msgs.messages) == 0 :
-    msgs.add_ai_message("How can I help you?")
+    msgs.add_ai_message("What do you want to know about Mostafa?")
 
 #Creating the template   
 my_template = """
