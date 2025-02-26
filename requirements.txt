@@ -1,6 +1,2 @@
 boto3
 langchain
-langchain-community
-RootModel
-BedrockEmbeddings
-faiss-cpu
