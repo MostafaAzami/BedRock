@@ -45,7 +45,7 @@ def config_vector_db(filename):
 
 #Configuring the llm and vector store
 llm = config_llm()
-vectorstore_faiss = config_vector_db("Mostafa.Azami.CV2025.pdf")
+vectorstore_faiss = config_vector_db("Mostafa.Azami.CV2025V2.pdf")
 
 #Set up memory
 msgs = StreamlitChatMessageHistory(key="langchain_messages")
