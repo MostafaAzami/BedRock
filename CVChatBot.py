@@ -11,7 +11,7 @@ from langchain_community.chat_message_histories import StreamlitChatMessageHisto
 
 #Configure streamlit app
 st.set_page_config(page_title="Mostafa Azami CV 2025", page_icon="📖")
-st.title("📖 Mostafa Azami CV 2025")
+st.title("📖 Mostafa Azami CV 2025") 
 
 #Define convenience functions
 @st.cache_resource
